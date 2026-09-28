@@ -191,7 +191,7 @@ function atualizar() {
     }
   }
 
-  // movimento do cacto
+  // movimento do cacto 
   cacto.x -= velocidade;
   if (cacto.x + cacto.w < 0) {
     cacto.x = 800 + Math.random() * 400; // reaparece entre 800 e 1200
